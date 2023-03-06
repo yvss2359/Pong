@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr">
+
+<head>
+	<meta charset="UTF-8"/>
+	<title>Pong</title>
+	<meta name="author" content="JC Routier"/>
+
+  <link rel="stylesheet" type="text/css" href="./style/style.css"/>
+
+	<script src="/socket.io/socket.io.js"></script>
+  <script src="./scripts/pong.js" type="module"></script>
+
+
+</head>
+
+
+<body>
+
+<h1 id="player"></h1>
+<h1 id="notif"></h1>
+<canvas id="field" width="800" height="600">
+</canvas>
+<div id="controls">
+	<span id="score1">0</span>
+	<input id="start" type="button" value="Jouer" disabled></input>
+  <input id="connect" type="button" value="Connect"></input>
+	<span id="score2">0</span>
+</div>
+
+
+
+</body>
+
+</html>
